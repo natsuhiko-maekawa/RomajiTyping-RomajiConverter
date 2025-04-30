@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomajiConverter", "src\RomajiConverter\RomajiConverter.csproj", "{6C47A3E0-7836-4315-A6A1-25E33747220D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "sandbox\ConsoleApp\ConsoleApp.csproj", "{BB2D5C53-1F67-4C94-ACE9-A6B697B8425B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomajiConverter.Tests", "tests\RomajiConverter.Tests\RomajiConverter.Tests.csproj", "{D07E3EA8-A858-44E5-8F7E-7633939E6ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "sandbox\Benchmark\Benchmark.csproj", "{F103408F-2A4F-4EF2-8384-F21CE9C30FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomajiTyping.Tests", "tests\RomajiTyping.Tests\RomajiTyping.Tests.csproj", "{E936846D-0711-4B68-8571-C767DB05C5F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomajiTyping", "src\RomajiTyping\RomajiTyping.csproj", "{9F9FF839-115A-45B4-A6FE-2C5D13F767A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C47A3E0-7836-4315-A6A1-25E33747220D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C47A3E0-7836-4315-A6A1-25E33747220D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C47A3E0-7836-4315-A6A1-25E33747220D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C47A3E0-7836-4315-A6A1-25E33747220D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB2D5C53-1F67-4C94-ACE9-A6B697B8425B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2D5C53-1F67-4C94-ACE9-A6B697B8425B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2D5C53-1F67-4C94-ACE9-A6B697B8425B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2D5C53-1F67-4C94-ACE9-A6B697B8425B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07E3EA8-A858-44E5-8F7E-7633939E6ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07E3EA8-A858-44E5-8F7E-7633939E6ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07E3EA8-A858-44E5-8F7E-7633939E6ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07E3EA8-A858-44E5-8F7E-7633939E6ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F103408F-2A4F-4EF2-8384-F21CE9C30FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F103408F-2A4F-4EF2-8384-F21CE9C30FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F103408F-2A4F-4EF2-8384-F21CE9C30FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F103408F-2A4F-4EF2-8384-F21CE9C30FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E936846D-0711-4B68-8571-C767DB05C5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E936846D-0711-4B68-8571-C767DB05C5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E936846D-0711-4B68-8571-C767DB05C5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E936846D-0711-4B68-8571-C767DB05C5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9FF839-115A-45B4-A6FE-2C5D13F767A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9FF839-115A-45B4-A6FE-2C5D13F767A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9FF839-115A-45B4-A6FE-2C5D13F767A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9FF839-115A-45B4-A6FE-2C5D13F767A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
