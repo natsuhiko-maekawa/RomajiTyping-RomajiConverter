@@ -4,6 +4,7 @@ namespace RomajiConverter.Tests;
 
 public class ConvertHiraganaTests
 {
+    [TestCase("", "")]
     [TestCase("あ", "a")]
     [TestCase("い", "i")]
     [TestCase("か", "ka")]
@@ -33,6 +34,8 @@ public class ConvertHiraganaTests
         Assert.That(actual[..length].ToString(), Is.EqualTo(romaji));
     }
 
+    [TestCase("", "", "")]
+    [TestCase("", "", "a")]
     [TestCase("あ", "a", "")]
     [TestCase("あ", "a", "a")]
     [TestCase("か", "ka", "")]
@@ -101,6 +104,7 @@ public class ConvertHiraganaTests
         Assert.That(actual[..length].ToString(), Is.EqualTo(romaji));
     }
 
+    [TestCase("", "")]
     [TestCase("うえの", "ueno", Description = "Two consecutive vowels.")]
     [TestCase("にっぽり", "nippori", Description = "Sokuon.")]
     [TestCase("しんじゅく", "sinzyuku", Description = "Hatuon and youon.")]
