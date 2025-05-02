@@ -4,6 +4,7 @@ namespace RomajiConverter.Tests;
 
 public class ConvertRomajiTests
 {
+    [TestCase("", "")]
     [TestCase("a", "あ")]
     [TestCase("i", "い")]
     [TestCase("k", "", "k")]
@@ -37,6 +38,7 @@ public class ConvertRomajiTests
         Assert.That(romaji.AsSpan()[remainStartIndex..].ToString(), Is.EqualTo(remain), $"{nameof(remain)}'s test has error.");
     }
 
+    [TestCase("", "")]
     [TestCase("chouzetsusofutoweasekkeinyuumonn", "ちょうぜつそふとうぇあせっけいにゅうもん")]
     [TestCase("shi-sha-pudetsukuttahaipafo-mansunahenkannarugorizumu", "しーしゃーぷでつくったはいぱふぉーまんすなへんかんあるごりずむ")]
     [TestCase("csharpdetsukuttahighperformancenahenkannalgorithm", "cしゃrpでつくったひghぺrふぉrまんせなへんかんあlごり", "thm")]
