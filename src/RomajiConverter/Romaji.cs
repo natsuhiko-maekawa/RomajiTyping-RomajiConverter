@@ -149,7 +149,7 @@ namespace RomajiConverter
         public static int MoraToHiragana(ReadOnlySpan<char> romaji, Span<char> hiragana, out int remainStartIndex)
         {
             var endIndex = MoraEndIndex(romaji);
-            if (endIndex < 0 && romaji[0] != 'n')
+            if (endIndex < 0 && romaji.Length >= 1 && romaji[0] != 'n')
             {
                 remainStartIndex = 0;
                 return 0;
@@ -280,6 +280,7 @@ namespace RomajiConverter
 
         private static int MoraEndIndex(ReadOnlySpan<char> romajis)
         {
+            if (romajis.Length <= 0) return -1;
             var index = 0;
             while (true)
             {
