@@ -115,6 +115,7 @@ namespace RomajiConverter
 
         public static int MoraToRomajiStartsWith(ReadOnlySpan<char> hiragana, Span<char> romaji, ReadOnlySpan<char> start, RomanizationStyle style = RomanizationStyle.Default)
         {
+            if (hiragana.Length <= 0) return 0;
             romaji.Clear();
             // Try to convert Hiragana as youon or chokuon.
             var hiragana1 = hiragana.Length >= 2 ? hiragana[1] : char.MinValue;
